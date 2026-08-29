@@ -9,6 +9,23 @@ Este proyecto constituye la línea base y punto de partida acumulativo para el d
 
 En esta práctica inicial se estandariza el entorno de desarrollo, la estructura del proyecto y el control de versiones con Git, además de implementar y evaluar un primer clasificador supervisado reproducible (Regresión Logística sobre el conjunto de datos Iris) utilizando `scikit-learn`.
 
+### 2. Actualización para el archivo `README.md`
+
+Agrega el bloque correspondiente a la **Semana 4** en la sección de progreso o tabla de contenidos de tu `README.md`:
+
+```markdown
+### Semana 04: Marco Tecnológico de la IA (Búsqueda A* y Decisión Minimax)
+
+* **Descripción:** Formulación de problemas en espacios de estados e implementación de algoritmos clásicos de búsqueda informada y toma de decisiones en entornos adversariales.
+* **Módulos Desarrollados:**
+  * `src/semana04_astar.py`: Algoritmo de búsqueda A* con heurística Manhattan y renderizador visual del camino en matriz.
+  * `src/semana04_minimax.py`: Toma de decisiones óptima para Tres en Línea utilizando Minimax optimizado con **Poda Alfa-Beta ($\alpha$-$\beta$)**.
+  * `reports/semana04.md`: Documentación teórica de estados, acciones, funciones de costo, admisibilidad y análisis de trade-offs.
+* **Ejecución:**
+  ```powershell
+  python src/semana04_astar.py
+  python src/semana04_minimax.py
+
 ---
 
 ### 👤 Autor del Proyecto
