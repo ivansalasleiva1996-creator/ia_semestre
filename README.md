@@ -21,6 +21,16 @@ Agrega el bloque correspondiente a la **Semana 4** en la sección de progreso o 
   * `src/semana04_astar.py`: Algoritmo de búsqueda A* con heurística Manhattan y renderizador visual del camino en matriz.
   * `src/semana04_minimax.py`: Toma de decisiones óptima para Tres en Línea utilizando Minimax optimizado con **Poda Alfa-Beta ($\alpha$-$\beta$)**.
   * `reports/semana04.md`: Documentación teórica de estados, acciones, funciones de costo, admisibilidad y análisis de trade-offs.
+  ### Semana 05: Marco Tecnológico de la IA (Sistema Híbrido Traducible)
+
+* **Descripción:** Desarrollo de un mini sistema híbrido trazable que integra Reglas Expertas, Recuperación de Información basada en TF-IDF y Similitud Coseno, Clasificación mediante Regresión Logística y Procesamiento del Lenguaje Natural (PLN).
+* **Módulos Desarrollados:**
+  * `data/base_conocimiento.txt`: Base documental estructurada con 8 entradas técnicas.
+  * `src/semana05_sistema_hibrido.py`: Script con trazabilidad completa (reglas + evidencia + similitud + clase).
+  * `reports/semana05.md`: Reporte de ejecución y validación de consultas.
+* **Ejecución:**
+  ```powershell
+  python src/semana05_sistema_hibrido.py
 * **Ejecución:**
   ```powershell
   python src/semana04_astar.py

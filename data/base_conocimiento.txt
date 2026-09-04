@@ -1,0 +1,8 @@
+Un equipo caliente o con temperatura alta requiere revisar el ventilador y disipador.
+La caida de internet o falla de DNS se resuelve verificando el router o interfaz de red.
+El consumo alto de CPU o memoria lentifica las aplicaciones del sistema.
+Una cuenta bloqueada o con error de inicio de sesion requiere validar credenciales y permisos de usuario.
+Los errores en la base de datos o almacenamiento se solucionan liberando espacio en disco.
+La falta de acceso a servicios web se asocia a bloqueos en el firewall o configuraciones de red.
+Las fallas en pantalla o artefactos visuales indican problemas en el controlador de video o hardware.
+Las interrupciones en conexiones inalambricas ocurren por interferencia de señal Wi-Fi.
