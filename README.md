@@ -23,6 +23,16 @@ Agrega el bloque correspondiente a la **Semana 4** en la sección de progreso o 
   * `reports/semana04.md`: Documentación teórica de estados, acciones, funciones de costo, admisibilidad y análisis de trade-offs.
   ### Semana 05: Marco Tecnológico de la IA (Sistema Híbrido Traducible)
 
+  ### Semana 07: Representaciones del Reconocimiento
+
+* **Descripción:** Implementación y evaluación comparativa de tres paradigmas de representación para el reconocimiento de patrones: representación numérica (distancia vectorial), simbólica (conjuntos de hechos e inferencia) y autómata finito determinista para secuencias.
+* **Módulos Desarrollados:**
+  * `src/semana07_representaciones.py`: Código executable con las tres representaciones.
+  * `reports/semana07.md`: Informe técnico con matriz comparativa de ventajas, limitaciones y pérdida de información.
+* **Ejecución:**
+  ```powershell
+  python src/semana07_representaciones.py
+
 * **Descripción:** Desarrollo de un mini sistema híbrido trazable que integra Reglas Expertas, Recuperación de Información basada en TF-IDF y Similitud Coseno, Clasificación mediante Regresión Logística y Procesamiento del Lenguaje Natural (PLN).
 * **Módulos Desarrollados:**
   * `data/base_conocimiento.txt`: Base documental estructurada con 8 entradas técnicas.
