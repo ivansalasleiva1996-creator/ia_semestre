@@ -38,6 +38,16 @@ Agrega el bloque correspondiente a la **Semana 4** en la sección de progreso o 
   * `data/base_conocimiento.txt`: Base documental estructurada con 8 entradas técnicas.
   * `src/semana05_sistema_hibrido.py`: Script con trazabilidad completa (reglas + evidencia + similitud + clase).
   * `reports/semana05.md`: Reporte de ejecución y validación de consultas.
+  ### Semana 08: Redes Neuronales, SQLite y Ontologías
+
+* **Descripción:** Integración de un modelo neuronal clasificadores (MLP), persistencia de evidencia en SQLite y modelo de conocimiento mediante ontologías en GraphML.
+* **Módulos Desarrollados:**
+  * `src/semana08_red_ontologia.py`: Script completo de entrenamiento, almacenamiento en BBDD y grafo ontológico.
+  * `reports/semana08.md`: Documentación de la arquitectura tripartita (Predicción, Evidencia y Significado).
+  * `artifacts/`: Archivos binarios (`modelo_mlp.pkl`, `imagenes.db`, `ontologia.graphml`).
+* **Ejecución:**
+  ```powershell
+  python src/semana08_red_ontologia.py
 * **Ejecución:**
   ```powershell
   python src/semana05_sistema_hibrido.py
