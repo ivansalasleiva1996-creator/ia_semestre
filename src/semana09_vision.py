@@ -1,5 +1,8 @@
 import os
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')  # Configura el backend no interactivo antes de importar pyplot
+import matplotlib.pyplot as plt
 import numpy as np
 from skimage import io, color, feature, filters, measure
 

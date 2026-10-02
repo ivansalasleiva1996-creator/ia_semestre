@@ -22,6 +22,11 @@ Agrega el bloque correspondiente a la **Semana 4** en la sección de progreso o 
   * `src/semana04_minimax.py`: Toma de decisiones óptima para Tres en Línea utilizando Minimax optimizado con **Poda Alfa-Beta ($\alpha$-$\beta$)**.
   * `reports/semana04.md`: Documentación teórica de estados, acciones, funciones de costo, admisibilidad y análisis de trade-offs.
   ### Semana 05: Marco Tecnológico de la IA (Sistema Híbrido Traducible)
+  * **Descripción:** Desarrollo de un mini sistema híbrido trazable que integra Reglas Expertas, Recuperación de Información basada en TF-IDF y Similitud Coseno, Clasificación mediante Regresión Logística y Procesamiento del Lenguaje Natural (PLN).
+* **Módulos Desarrollados:**
+  * `data/base_conocimiento.txt`: Base documental estructurada con 8 entradas técnicas.
+  * `src/semana05_sistema_hibrido.py`: Script con trazabilidad completa (reglas + evidencia + similitud + clase).
+  * `reports/semana05.md`: Reporte de ejecución y validación de consultas.
 
   ### Semana 07: Representaciones del Reconocimiento
 
@@ -33,12 +38,7 @@ Agrega el bloque correspondiente a la **Semana 4** en la sección de progreso o 
   ```powershell
   python src/semana07_representaciones.py
 
-* **Descripción:** Desarrollo de un mini sistema híbrido trazable que integra Reglas Expertas, Recuperación de Información basada en TF-IDF y Similitud Coseno, Clasificación mediante Regresión Logística y Procesamiento del Lenguaje Natural (PLN).
-* **Módulos Desarrollados:**
-  * `data/base_conocimiento.txt`: Base documental estructurada con 8 entradas técnicas.
-  * `src/semana05_sistema_hibrido.py`: Script con trazabilidad completa (reglas + evidencia + similitud + clase).
-  * `reports/semana05.md`: Reporte de ejecución y validación de consultas.
-  ### Semana 08: Redes Neuronales, SQLite y Ontologías
+ ### Semana 08: Redes Neuronales, SQLite y Ontologías
 
 * **Descripción:** Integración de un modelo neuronal clasificadores (MLP), persistencia de evidencia en SQLite y modelo de conocimiento mediante ontologías en GraphML.
 * **Módulos Desarrollados:**
@@ -48,6 +48,19 @@ Agrega el bloque correspondiente a la **Semana 4** en la sección de progreso o 
 * **Ejecución:**
   ```powershell
   python src/semana08_red_ontologia.py
+
+### Semana 09: Reconocimiento de Imágenes y Visión por Computadora
+* **Descripción:** Canalización de visión artificial para la extracción de características, detección de bordes mediante Canny, segmentación por umbralización Otsu y etiquetado de regiones conectadas.
+
+* **Módulos Desarrollados:**
+
+* `data/imagen_proyecto.png:` Imagen de entrada para inspección visual.
+
+* `src/semana09_vision.py:` Script de procesamiento de imágenes y generación del panel gráfico.
+
+* `artifacts/semana09_vision.png:` Panel de 4 cuadrantes renderizado como evidencia.
+
+reports/semana09.md: Informe de resultados cuantitativos (umbral Otsu y conteo de regiones).
 * **Ejecución:**
   ```powershell
   python src/semana05_sistema_hibrido.py
